@@ -3,18 +3,23 @@ Introductory project to computer security in the specific field of the web, this
 
 #  Objectives
 
-OWASP
+* OWASP
 
-SQL / JS
+* SQL / JS
 
-Backend
+* Backend
 
-Security web security breaches
+* Security web security breaches
 
 
 # Skills
-Adaptation & creativity
+* Adaptation & creativity
 
-Security
+* Security
 
-Web
+* Web
+
+
+# Links
+
+[Хорошая статья по owasp](https://habr.com/ru/company/simplepay/blog/258499/)
