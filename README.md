@@ -26,3 +26,15 @@ Introductory project to computer security in the specific field of the web, this
 
 links:
 
+[mgorczan's darkly](https://profile.intra.42.fr/users/mgorczan)
+
+https://disk.yandex.ru/i/Xo7fFRGHbUUQqw
+
+https://disk.yandex.ru/i/VH6y4kyZ4Gzj2A
+
+https://disk.yandex.ru/i/h5m9vEqP--zWQA
+
+
+00 - 
+
+01 - https://github.com/nhakkaou/Darkly42/tree/master/change_userAgent/Ressources
