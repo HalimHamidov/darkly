@@ -35,6 +35,6 @@ https://disk.yandex.ru/i/VH6y4kyZ4Gzj2A
 https://disk.yandex.ru/i/h5m9vEqP--zWQA
 
 
-00 - 
+00 - https://github.com/0auBSQ/42-Security-Anthology/tree/main/Darkly/01-AdminCookie-CookieForgery
 
 01 - https://github.com/nhakkaou/Darkly42/tree/master/change_userAgent/Ressources
