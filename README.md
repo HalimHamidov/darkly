@@ -11,14 +11,13 @@ Introductory project to computer security in the specific field of the web, this
 
 * Security web security breaches
 
-
 # Skills
+
 * Adaptation & creativity
 
 * Security
 
 * Web
-
 
 # Links
 
@@ -33,7 +32,6 @@ https://disk.yandex.ru/i/Xo7fFRGHbUUQqw
 https://disk.yandex.ru/i/VH6y4kyZ4Gzj2A
 
 https://disk.yandex.ru/i/h5m9vEqP--zWQA
-
 
 00 - https://github.com/0auBSQ/42-Security-Anthology/tree/main/Darkly/01-AdminCookie-CookieForgery
 
