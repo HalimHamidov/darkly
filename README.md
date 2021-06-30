@@ -38,7 +38,8 @@ https://disk.yandex.ru/i/h5m9vEqP--zWQA
 05 - https://github.com/Salsa-socks/darkly/blob/master/13_unix_passwd_file/resources/info.md
 
 
-[Хорошая статья по owasp](https://habr.com/ru/company/simplepay/blog/258499/)
+[Хорошая статья по OWASP](https://owasp.org/www-community/attacks/)
+
 links:
 
 OWASP Mutillidae II
