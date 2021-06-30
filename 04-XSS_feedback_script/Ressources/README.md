@@ -26,6 +26,15 @@ XSS — это уязвимость веб-страниц, возникающа�
 
 Решение:
 
+[Рекомендации OWASP:](https://owasp.org/www-community/attacks/xss/)
+
+How to Protect Yourself
+The primary defenses against XSS are described in the [OWASP XSS Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html).
+
+Also, it’s crucial that you turn off HTTP TRACE support on all web servers. An attacker can steal cookie data via Javascript even when document.cookie is disabled or not supported by the client. This attack is mounted when a user posts a malicious script to a forum so when another user clicks the link, an asynchronous HTTP Trace call is triggered which collects the user’s cookie information from the server, and then sends it over to another malicious server that collects the cookie information so the attacker can mount a session hijack attack. This is easily mitigated by removing support for HTTP TRACE on all web servers.
+
+The OWASP ESAPI project has produced a set of reusable security components in several languages, including validation and escaping routines to prevent parameter tampering and the injection of XSS attacks. In addition, the OWASP WebGoat Project training application has lessons on Cross-Site Scripting and data encoding.
+
 * Разработчики должны внедрить белый список допустимых входных данных, и если это невозможно, то нужно организовать проверки входных данных. Более того, данные, введенные пользователем, должны быть отфильтрованы 
 
 * Output encoding является наиболее надежным решением для борьбы с XSS, поскольку оно принимает код скрипта и преобразует его в обычный текст 
