@@ -5,9 +5,10 @@ https://owasp.org/www-community/attacks/Path_Traversal
 
 https://en.wikipedia.org/wiki/Directory_traversal_attack#Example
 
-A directory traversal (or path traversal) attack exploits insufficient security validation or sanitization of user-supplied file names, such that characters representing "traverse to parent directory" are passed through to the operating system's file system API. An affected application can be exploited to gain unauthorized access to the file system.
+Атака с обходом каталога (или обходом пути) использует недостаточную проверку безопасности или дезинфекцию предоставленных пользователем имен файлов, так что символы, представляющие «переход к родительскому каталогу», передаются в API файловой системы операционной системы. Уязвимое приложение может быть использовано для получения несанкционированного доступа к файловой системе.
 
-Directory traversal is also known as the ../ (dot dot slash) attack, directory climbing, and backtracking. Some forms of this attack are also canonicalization attacks.
+
+Обход каталога также известен как ../ (dot dot slash) атака, directory climbing, и backtracking. Некоторые формы этой атаки также известны как атаки канонизации (процесс преобразования данных в одно возможное представление).
 
 Файл пароля Unix 
 https://ru.wikipedia.org/wiki/%2Fetc%2Fpasswd

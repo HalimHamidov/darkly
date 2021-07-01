@@ -1,14 +1,14 @@
 Описание
 
-Нажимаем на signin  и I forgot my password затем правой кнопкой мыши Inspect Page
+Нажимаем на "Sign In"  и "I forgot my password" затем правой кнопкой мыши Inspect Page
 
 http://192.168.56.108/index.php?page=recover#
 
-видим
+Видим в странице Elements
 
 <input type="hidden" name="mail" value="webmaster@borntosec.com" maxlength="15">
 
-- Просто меняем name  или value на любой символ и получаем флаг/
+- Просто меняем name  или value на любой символ, А затем нажимаем "Submit" на странице для получения флага.
 
 Почему это опасно?
 

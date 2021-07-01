@@ -1,7 +1,13 @@
-click at the bottom of the page the logo © BornToSec
-We will enter http://192.168.56.108/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
+Нажми на значение в конце страницы - © BornToSec
+Тем самым мы зайдём по адресу http://192.168.56.108/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
 If we inspect the page we will find the text where we can find hints.
 We may curl it and save the page into flag01.html and when we open it we can see the flag on front page firstly.
+
+Если происследовать страницу, то найдём текс, где можно найти подсказку. Мы можем воспользоваться функцией curl и сохранить страницу в flag01.html, где его откроем и увидим флаг.
+
+Флаг -А означает запустить через настоящий браузер.
+Флаг -е говорит о том по какой ссылке проводить соединение.
+Вход идёт из "https://www.nsa.gov/" в http://192.168.56.108 через браузер ft_bornToSec"
 
 ➜  ~ curl -A "ft_bornToSec" -e "https://www.nsa.gov/" http://192.168.56.108/\?page\=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c > flag01.html
 
@@ -11,7 +17,6 @@ The flag is : f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
 Выводить User Agent может вызывать проблемы с XSS. Его выполнение может разрешить удаленное выполнение кода на языке, используемом на стороне сервера. Проверка реферера может предотвратить множественные проблемы безопасности, такие как RFI (включение удаленного файла) или CSRF (подделка межсайтовых запросов).
 
 чтобы решить эту проблему, нам нужно добавить токен в params
-
 
 glossary:
 

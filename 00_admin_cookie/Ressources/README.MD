@@ -3,8 +3,10 @@
 * Мы открываем сайт по IP http://192.168.56.108/index.php
 ![BORNTOSEC](BORNTOSEC.png) 
 
-* Right Click page 'Inspect page'
+* Right Click page 'Inspect page'  
 * Goto Application-> Cookies
+
+Или More Tools->Developer Tools->Application->Cookies
 
 Когда мы проверяем файлы cookie, мы видим куки I_am_admin со значением 68934a3e9455fa72420237eb05902327 который, кажется, определяет, есть ли у пользователя права администратора.
 ![false_value](false_value.png) 
