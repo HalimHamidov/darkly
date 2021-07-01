@@ -20,7 +20,6 @@ service
 canada
 hello
 ranger
-shadow
 baseball
 donald
 harley

