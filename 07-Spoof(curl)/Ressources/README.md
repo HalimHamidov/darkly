@@ -1,8 +1,5 @@
 Нажми на значение в конце страницы - © BornToSec
 Тем самым мы зайдём по адресу http://192.168.56.108/?page=e43ad1fdc54babe674da7c7b8f0127bde61de3fbe01def7d00f151c2fcca6d1c
-If we inspect the page we will find the text where we can find hints.
-We may curl it and save the page into flag01.html and when we open it we can see the flag on front page firstly.
-
 Если происследовать страницу, то найдём текс, где можно найти подсказку. Мы можем воспользоваться функцией curl и сохранить страницу в flag01.html, где его откроем и увидим флаг.
 
 Флаг -А означает запустить через настоящий браузер.

@@ -37,16 +37,10 @@ Congratulaton!! The flag is : b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a
 
 Рекомендации OWASP:
 
-* How to protect yourself
+* Не давать прав пользователю при использовании вызовов файловой системы
 
-* Prefer working without user input when using file system calls
+* Используйте индексы, а не фактические части имен файлов при создании шаблонов или использовании языковых файлов (т.е. значение 5 из пользовательского представления = чехословацкий язык, а не ожидайте, что пользователь ответит "чехословацкий"), т.к. чтоб пользователь не ошибался в грамматике, используйте числа.
 
-* Use indexes rather than actual portions of file names when templating or using language files (ie value 5 from the user submission = Czechoslovakian, rather than expecting the user to return “Czechoslovakian”)
+* Убедитесь, что пользователь не может проникнуть во все части пути файловой системы, а обозначьте своим кодом пути, где может иметь права.
 
-* Ensure the user cannot supply all parts of the path – surround it with your path code
-
-* Validate the user’s input by only accepting known good – do not sanitize the data
-
-* Use chrooted jails and code access policies to restrict where the files can be obtained or saved to
-
-* If forced to use user input for file operations, normalize the input before using in file io API’s, such as normalize().
+* Проверяйте вводимые пользователем данные, принимая только заведомо хорошие - не очищайте данные
