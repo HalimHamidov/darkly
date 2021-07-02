@@ -16,7 +16,7 @@ Title: Hack me ?
 Url : borntosec.ddns.net/images.png
 
 Судя по ответу можно понять, что делается следующий запрос:
-SELECT ID, Title, Url WHERE 'table'
+SELECT ID, Title, Url WHERE 'unknown_table'
 
 Чтобы выполнять и собственные запросы, есть функция UNION.
 Оператор языка SQL UNION предназначен для объединения результирующих таблиц базы данных, полученных с применением слова SELECT. 
