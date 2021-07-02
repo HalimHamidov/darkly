@@ -1,5 +1,4 @@
 import requests
-import re
 
 def brute_force_signin():
     i = 1
